@@ -74,13 +74,21 @@ def _size(path):
             return img.size
     except Exception:
         return None
-
+       
 
 def rule1_metadata(target, input_path):
     """File size + dimensions. Compression and crops leave size fingerprints."""
     out = {"rule": 1, "name": "Metadata", "fired": False, "score": 0,
            "out_of": 30, "note": "Size ratio 0.00", "metric": 0.0}
     try:
+      # Open the original image as binary. Then read the first 8 bytes and store them in target_header
+        with open(target["path"], "rb") as f: 
+            target_header = f.read(8)
+      
+      # Open the modified image as binary. Then read the first 8 bytes and store them in input_header
+        with open(input_path, "rb") as f:
+            input_header = f.read(8)
+        
         src_size = os.path.getsize(target["path"])
         in_size = os.path.getsize(input_path)
         src_w, src_h = _size(target["path"]) or (0, 0)
