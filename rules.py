@@ -88,6 +88,11 @@ def rule1_metadata(target, input_path):
       # Open the modified image as binary. Then read the first 8 bytes and store them in input_header
         with open(input_path, "rb") as f:
             input_header = f.read(8)
+      
+      # Compare the first two bytes of the original to the first two bytes of the modified image (output True or False)
+      # If comparing JPEG original with JPEG modified image -> True
+      # If comparing JPEG original with PNG modified image -> False 
+        same_format = target_header[:2] == input_header[:2]
         
         src_size = os.path.getsize(target["path"])
         in_size = os.path.getsize(input_path)
