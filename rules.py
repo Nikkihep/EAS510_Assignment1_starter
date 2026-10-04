@@ -96,18 +96,37 @@ def rule1_metadata(target, input_path):
         
         src_size = os.path.getsize(target["path"])
         in_size = os.path.getsize(input_path)
-        src_w, src_h = _size(target["path"]) or (0, 0)
-        in_w, in_h = _size(input_path) or (0, 0)
-        size_ratio = min(src_size, in_size) / max(src_size, in_size)
-        area_kept = (in_w * in_h) / max(1, src_w * src_h)
-        metric = 0.5 * size_ratio + 0.5 * min(1.0, area_kept)
+
+        src_w, src_h = _size(target["path"]) or (0, 0) # original dimensions
+        in_w, in_h = _size(input_path) or (0, 0) # dimensions we are testing
+
+        size_ratio = min(src_size, in_size) / max(src_size, in_size) # compares the file sizes
+        area_kept = (in_w * in_h) / max(1, src_w * src_h) # compares the number of pixels
+	
+        width_ratio = in_w / max(1, src_w)
+        height_ratio = in_h / max(1, src_h)
+        dimension_ratio = min(width_ratio, height_ratio)
+        print(
+            "DEBUG:",
+            os.path.basename(target["path"]),
+            "vs",
+            os.path.basename(input_path),
+            "size=", round(size_ratio, 3),
+            "area=", round(area_kept, 3),
+            "width=", round(width_ratio, 3),
+            "height=", round(height_ratio, 3),
+            "dimension=", round(dimension_ratio, 3),
+       )
+
+        # Temporarily change from area_kept to dimension_ratio
+        metric = 0.5 * size_ratio + 0.5 * min(1.0, dimension_ratio)
         out["metric"] = round(max(0.0, min(1.0, metric)), 3)
         out["note"] = f"Size ratio {out['metric']:.2f}"
         if out["metric"] >= 0.6:
             out["fired"] = True
             out["score"] = int(round(out["out_of"] * out["metric"]))
-    except Exception:
-        pass
+    except Exception as e:
+        print("RULE 1 ERROR;", e)
     return out
 
 
