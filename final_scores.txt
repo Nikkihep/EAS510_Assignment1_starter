@@ -1,0 +1,135 @@
+Final Score: 96/100 -> MATCH to original_00
+Final Score: 91/100 -> MATCH to original_00
+Final Score: 43/100 -> REJECTED
+Final Score: 63/100 -> MATCH to original_00
+Final Score: 84/100 -> MATCH to original_00
+Final Score: 75/100 -> MATCH to original_00
+Final Score: 74/100 -> MATCH to original_01
+Final Score: 92/100 -> MATCH to original_01
+Final Score: 72/100 -> MATCH to original_01
+Final Score: 72/100 -> MATCH to original_01
+Final Score: 90/100 -> MATCH to original_01
+Final Score: 75/100 -> MATCH to original_01
+Final Score: 96/100 -> MATCH to original_02
+Final Score: 93/100 -> MATCH to original_02
+Final Score: 71/100 -> MATCH to original_02
+Final Score: 68/100 -> MATCH to original_02
+Final Score: 86/100 -> MATCH to original_02
+Final Score: 75/100 -> MATCH to original_02
+Final Score: 98/100 -> MATCH to original_03
+Final Score: 92/100 -> MATCH to original_03
+Final Score: 68/100 -> MATCH to original_03
+Final Score: 71/100 -> MATCH to original_03
+Final Score: 91/100 -> MATCH to original_03
+Final Score: 75/100 -> MATCH to original_03
+Final Score: 99/100 -> MATCH to original_04
+Final Score: 93/100 -> MATCH to original_04
+Final Score: 74/100 -> MATCH to original_04
+Final Score: 71/100 -> MATCH to original_04
+Final Score: 91/100 -> MATCH to original_04
+Final Score: 75/100 -> MATCH to original_04
+Final Score: 88/100 -> MATCH to original_05
+Final Score: 92/100 -> MATCH to original_05
+Final Score: 64/100 -> MATCH to original_05
+Final Score: 72/100 -> MATCH to original_05
+Final Score: 90/100 -> MATCH to original_05
+Final Score: 75/100 -> MATCH to original_05
+Final Score: 98/100 -> MATCH to original_06
+Final Score: 91/100 -> MATCH to original_06
+Final Score: 69/100 -> MATCH to original_06
+Final Score: 72/100 -> MATCH to original_06
+Final Score: 91/100 -> MATCH to original_06
+Final Score: 75/100 -> MATCH to original_06
+Final Score: 75/100 -> MATCH to original_07
+Final Score: 92/100 -> MATCH to original_07
+Final Score: 65/100 -> MATCH to original_07
+Final Score: 67/100 -> MATCH to original_07
+Final Score: 89/100 -> MATCH to original_07
+Final Score: 75/100 -> MATCH to original_07
+Final Score: 75/100 -> MATCH to original_08
+Final Score: 92/100 -> MATCH to original_08
+Final Score: 62/100 -> MATCH to original_08
+Final Score: 64/100 -> MATCH to original_08
+Final Score: 86/100 -> MATCH to original_08
+Final Score: 75/100 -> MATCH to original_08
+Final Score: 74/100 -> MATCH to original_09
+Final Score: 91/100 -> MATCH to original_09
+Final Score: 50/100 -> MATCH to original_09
+Final Score: 66/100 -> MATCH to original_09
+Final Score: 88/100 -> MATCH to original_09
+Final Score: 75/100 -> MATCH to original_09
+Final Score: 86/100 -> MATCH to original_00
+Final Score: 46/100 -> REJECTED
+Final Score: 70/100 -> MATCH to original_00
+Final Score: 69/100 -> MATCH to original_00
+Final Score: 49/100 -> REJECTED
+Final Score: 51/100 -> MATCH to original_00
+Final Score: 71/100 -> MATCH to original_01
+Final Score: 55/100 -> MATCH to original_01
+Final Score: 65/100 -> MATCH to original_01
+Final Score: 73/100 -> MATCH to original_01
+Final Score: 51/100 -> MATCH to original_09
+Final Score: 75/100 -> MATCH to original_01
+Final Score: 67/100 -> MATCH to original_02
+Final Score: 51/100 -> MATCH to original_02
+Final Score: 66/100 -> MATCH to original_02
+Final Score: 70/100 -> MATCH to original_02
+Final Score: 48/100 -> REJECTED
+Final Score: 72/100 -> MATCH to original_02
+Final Score: 70/100 -> MATCH to original_03
+Final Score: 73/100 -> MATCH to original_03
+Final Score: 53/100 -> MATCH to original_03
+Final Score: 73/100 -> MATCH to original_03
+Final Score: 47/100 -> REJECTED
+Final Score: 75/100 -> MATCH to original_03
+Final Score: 93/100 -> MATCH to original_04
+Final Score: 52/100 -> MATCH to original_04
+Final Score: 68/100 -> MATCH to original_04
+Final Score: 71/100 -> MATCH to original_04
+Final Score: 52/100 -> MATCH to original_04
+Final Score: 70/100 -> MATCH to original_04
+Final Score: 66/100 -> MATCH to original_05
+Final Score: 53/100 -> MATCH to original_05
+Final Score: 71/100 -> MATCH to original_05
+Final Score: 72/100 -> MATCH to original_05
+Final Score: 54/100 -> MATCH to original_05
+Final Score: 76/100 -> MATCH to original_05
+Final Score: 89/100 -> MATCH to original_06
+Final Score: 51/100 -> MATCH to original_06
+Final Score: 72/100 -> MATCH to original_06
+Final Score: 73/100 -> MATCH to original_06
+Final Score: 49/100 -> REJECTED
+Final Score: 68/100 -> MATCH to original_06
+Final Score: 88/100 -> MATCH to original_07
+Final Score: 65/100 -> MATCH to original_07
+Final Score: 50/100 -> MATCH to original_07
+Final Score: 69/100 -> MATCH to original_07
+Final Score: 68/100 -> MATCH to original_07
+Final Score: 77/100 -> MATCH to original_07
+Final Score: 67/100 -> MATCH to original_08
+Final Score: 45/100 -> REJECTED
+Final Score: 48/100 -> REJECTED
+Final Score: 68/100 -> MATCH to original_08
+Final Score: 68/100 -> MATCH to original_08
+Final Score: 77/100 -> MATCH to original_08
+Final Score: 88/100 -> MATCH to original_09
+Final Score: 46/100 -> REJECTED
+Final Score: 49/100 -> REJECTED
+Final Score: 66/100 -> MATCH to original_09
+Final Score: 49/100 -> REJECTED
+Final Score: 88/100 -> MATCH to original_09
+Final Score: 25/100 -> REJECTED
+Final Score: 30/100 -> REJECTED
+Final Score: 32/100 -> REJECTED
+Final Score: 32/100 -> REJECTED
+Final Score: 31/100 -> REJECTED
+Final Score: 29/100 -> REJECTED
+Final Score: 28/100 -> REJECTED
+Final Score: 33/100 -> REJECTED
+Final Score: 29/100 -> REJECTED
+Final Score: 28/100 -> REJECTED
+Final Score: 6/100 -> REJECTED
+Final Score: 6/100 -> REJECTED
+Final Score: 6/100 -> REJECTED
+Final Score: 6/100 -> REJECTED
+Final Score: 6/100 -> REJECTED
